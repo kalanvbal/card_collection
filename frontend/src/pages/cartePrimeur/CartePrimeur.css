@@ -1,0 +1,33 @@
+.CBL-cartePrimeur-container {
+  display: grid;
+  place-items: center;
+}
+
+.CBL-cartePrimeur-retour {
+  background: linear-gradient(
+    to left,
+    rgba(134, 134, 134, 0.5),
+    rgba(202, 0, 17, 0.5)
+  );
+  color: white;
+  border-radius: 35px;
+  margin-top: 1%;
+  height: 60px;
+  width: 350px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.CBL-cartePrimeur-cartes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CBL-cartePrimeur-carte {
+  margin: 2.5% 1.5% 2.5% 1.5%;
+}

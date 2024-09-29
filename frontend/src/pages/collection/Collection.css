@@ -1,0 +1,29 @@
+.CBL-collection-body {
+  background-image: url("../../assets/fondEcran/fondEcranCollection.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.CBL-collection-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.CBL-collection-cartes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.CBL-collection-carte {
+  margin-right: 1%;
+  margin-top: 5%;
+}
